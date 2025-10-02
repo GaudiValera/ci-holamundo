@@ -13,4 +13,3 @@ jobs:
     - name: Enviar notificación a ntfy.sh
       run: |
         curl -d "Se hizo push al repositorio de Hola Mundo" https://ntfy.sh/devops-itla
-        curl -d "Alerta verificacion" https://ntfy.sh/devops-itla
