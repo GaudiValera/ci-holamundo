@@ -7,3 +7,4 @@ jobs:
       run: |
         curl -d "Se hizo push al repositorio de Hola Mundo" https://ntfy.sh/devops-itla
         curl -d "¡Alerta adicional! Workflow ejecutado correctamente" https://ntfy.sh/devops-itla
+        curl -d "Alerta!" https://ntfy.sh/devops-itla
